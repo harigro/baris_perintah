@@ -4,11 +4,11 @@ Sering terjadi kesulitan ketika harus mengaktifkan lingkungan virtual python kar
 
 ## Langkah - langkah
 
-Dalam contoh ini saya menggunkan sistem operasi linux. <br>
+Dalam contoh ini saya menggunkan sistem operasi linux.  
 
-1. Buka terminal dan ketik nama teks editor + ~/.bashrc lalu tekan ENTER. 
+1. Buka terminal dan ketik nama teks editor + ~/.bashrc lalu tekan ENTER 
 
-2. Diakhir baris tambahkan skrip berikut <br>
+2. Diakhir baris tambahkan skrip berikut  
    
    ```bash
    # Aktifkan virtualenv otomatis saat berada di direktori proyek tertentu
@@ -26,10 +26,11 @@ Dalam contoh ini saya menggunkan sistem operasi linux. <br>
    export PROMPT_COMMAND="activate_virtualenv;$PROMPT_COMMAND"
    ```
 
-3. Simpan perintah dengan mengetik diterminal <br>
+3. Simpan perintah dengan mengetik diterminal  
    
    ```bash
    source ~/.bashrc
    ```
 
-4. keluar dari terminal dan buka lagi terminal dan arahkan ke direktori folder tempat proyek anda berada untuk menguji program.
+4. Keluar dari terminal
+5. Buka lagi terminal dan arahkan ke direktori folder tempat proyek anda berada untuk menguji program

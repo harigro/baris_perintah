@@ -36,7 +36,7 @@ sudo apt update
 * Layanan latar belakang
   
   * ```bash
-    sudo apt install snapd  
+    sudo apt install snapd
     ```
   
   * Atur Izin
